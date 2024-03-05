@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://i.pinimg.com/564x/f0/31/ea/f031ea0e1916d148b2170fff61fca993.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #333;
+}
+
+.container {
+    width: 50%;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group small {
+    display: block;
+    margin-top: 5px;
+    color: #666;
+}
+
+.button-group {
+    text-align: center;
+}
+
+.button-group button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-group button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+.button-group button[type="submit"]:hover,
+.button-group button[type="button"]:hover {
+    background-color: #45a049;
+}
+
